@@ -19,6 +19,10 @@ header h2 {
   padding-bottom: 20px;
 }
 
+h1 {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -55,19 +59,9 @@ body {
   font-family: 'Noto Serif KR', serif;
 }
 
-h2 {
-  text-align: center;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .leftcolumn {
   float: left;
-  width: 40%;
+  width: 70%;
   padding-top: 50px;
   font-size: 14px;
   padding-bottom: 20px;
@@ -76,10 +70,15 @@ h2 {
 
 .rightcolumn {
   float: right;
-  width: 40%;
+  width: 25%;
   padding-top: 50px;
   font-size: 14px;
+  text-align: center;
   padding-bottom: 20px;
+}
+
+.icons {
+  color: #DDA0DD;
 }
 
 footer {
@@ -90,7 +89,25 @@ footer {
   color: #DDA0DD;
 }
 
-.work {
-  padding-top: 50px;
-  text-align: center;
+
+button, input, select, textarea {
+  font-family: Sans-Serif;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: .5rem;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #DDA0DD;
+}
+
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
 }

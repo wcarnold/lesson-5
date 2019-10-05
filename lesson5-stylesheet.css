@@ -66,10 +66,11 @@ h2 {
 
 .leftcolumn {
   float: left;
-  width: 70%;
+  width: 40%;
   padding-top: 50px;
   font-size: 14px;
   padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 .rightcolumn {
